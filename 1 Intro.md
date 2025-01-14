@@ -30,8 +30,6 @@
     - Jenkins = do same above work more better job with even complex task
     - schedulejob
 
-
-
 # Developer VS OPs[IT-operations person]
 
 - Devops take care of collaboration and communication of both developer and OPs teams. It is not the combination of developer and ops.
