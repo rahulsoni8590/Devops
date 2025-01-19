@@ -88,7 +88,7 @@
 # Deployment Stratagies:
 - v1 and v2 are cluster of different machines.
 - Recreate Deployment:
-    - Defi : If there two version v1 and v2 and we want to deploy new version we get rid of v1 and deploy ve
+    - Defi : If there two version v1 and v2 and we want to deploy new version we get rid of v1 and deploy v2
     - pros : easy to setup, application state entirely renewed,
     - cons : Downtime
 
@@ -110,7 +110,7 @@
 - Ramped/Rolling/Updates Deployment:[IMP]
     - Defi : If there two version v1 and v2 and we want to deploy new version , so both are deployment and machines of v1 server are then slowly transferred to v2.
     - pros : No Downtime, resource efficiency[no two environment], good scalability,
-    - cons : partial rollback complesity, deployment speed is slower. 
+    - cons : partial rollback complexity, deployment speed is slower. 
 
 - A/B Testing Deployment:[maybe]
     - Defi : If there two version v1 and v2 and we want to deploy new version , so both are deployed and mobile user traffic is shifted and v2 and monitoring is done if result are good the whole traffic is moved. v1 and v2 could be completely different codebase. 
